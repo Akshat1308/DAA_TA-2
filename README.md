@@ -6,7 +6,7 @@ Name : Akshat Surana
 
 Roll : 34 (A2 batch)
 
-                                                                                Code: 
+<p align="center">Code:</p>
 
 #include <bits/stdc++.h>
 using namespace std;
