@@ -126,7 +126,7 @@ int main()
     return 0;
 }
 
-Test cases:
+<p align="center">Test cases:</p>
 
 case 1)
 
