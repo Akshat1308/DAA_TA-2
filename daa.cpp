@@ -5,7 +5,7 @@ int ans_max = INT_MIN;
 int ans_min = INT_MAX;
 vector<int> vmax;
 vector<int> vmin;
-const int n = 6;
+const int n = 10;
 void bfs(int arr[n][n], int visited[n][n], int i, int j, int sum, int fi, int fj, vector<int> v1)
 {
     if (i < 0 || j < 0 || i > n - 1 || j > n - 1)
