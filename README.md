@@ -164,8 +164,8 @@ Here we are using the concept of back tracking. We are maintaining a visited arr
 initially initialized to zero and aftervisiting a vertex in the original matrix we set the value of same position in the visited 
 array to one. More two vectors are being maintained namely “vmax “and “vmin”,these two are globally initialized and are saving the 
 vertex which is visited and is contributing in the path. To check which vertex is contributing in the path andwhich is not, there 
-are several if conditions. The "bfs" function is repeatedly calling itself. Here it first takes the initial position and checks whether 
-it is avalid position or not and if it is a valid position, it adds its value in sum which was initially initialized to 0. 
+are several if conditions. The "bfs" function is repeatedly calling itself. Here it first takes the initial position and checks
+whether it is avalid position or not and if it is a valid position, it adds its value in sum which was initially initialized to 0. 
 After that it checks whether the vertices adjacentto this vertex are visited or not and if not visited, it ads it to sum and checks 
 whether it is greater (for max sum case) and smaller for (min sum case) and if therespective conditions are satisfied then it updates 
 the sum and ads the vertex in “vmax” and “vmin” array respectively.
